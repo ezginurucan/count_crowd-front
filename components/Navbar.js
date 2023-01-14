@@ -19,23 +19,7 @@ export default function Navbar() {
                    </a>
                 </div>
                 <div className="hidden px-5 sm:flex sm:space-x-8" >
-                  {/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-orange-700 hover:text-gray-300" */}
-                  <div className="inline-flex items-center px-1 pt-1 text-sm font-bold text-gray-300 border-b-2 border-transparent hover:border-orange-700 hover:text-gray-900"
-                    ><a 
-                    href="/"
-                  >
-                    Hakkımızda 
-                  </a></div>
-                  
-                 <div
-                    className="inline-flex items-center px-1 pt-1 text-sm font-bold text-gray-300 border-b-2 border-transparent hover:border-orange-700 hover:text-gray-900"
-                    ><a
-                    href="/"
-                  >
-                   
-                  </a></div>
-                  
-                 
+                  <h1 className="inline-flex items-center px-1 pt-1 text-large font-bold text-gray-300 border-b-2 border-transparent">Place Crowd Density App</h1>        
                 </div>
               </div>
               
