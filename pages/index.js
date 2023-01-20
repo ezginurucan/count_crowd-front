@@ -14,7 +14,7 @@ export const getServerSideProps = async () => {
 
   const res = await request.json();
   let count = res.content.number_of_people;
-  const density = Math.round((count*100)/50)
+  const density = Math.round((count*100)/30)
   return { props: { density } };
 };
 
@@ -29,7 +29,7 @@ export default function Home({ density }) {
             <div className="max-w flex  items-center justify-center w-full px-12 py-16 bg-orange-400 lg:w-1/2 bg-gradient-to-l" >
             <h1>Cafe Yoğunluğu:</h1>
             <h1>{density}% </h1>
-              <div action="#" >
+              
                 
               </div>
             </div>
